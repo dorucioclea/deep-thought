@@ -11,9 +11,18 @@ namespace ProblemCozümleri.Common
         /// <returns></returns>
         public static bool IsPrimeNumber(int n)
         {
-            for (int i = 2; i < Math.Pow(n, 0.5) + 1; i++)
-                if (n % i == 0)
+            if (n == 2) return true;
+
+            if (n <= 1 || n % 2 == 0) return false;
+
+            int counter = 3;
+            while (Math.Pow(counter, 2) <= n)
+            {
+                if (n % counter == 0)
                     return false;
+                else
+                    counter += 2;
+            }
 
             return true;
         }
