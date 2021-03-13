@@ -1,6 +1,4 @@
 # Custom 
-*.csproj
-Program.cs
 .vscode
 
 # Created by https://www.toptal.com/developers/gitignore/api/csharp
