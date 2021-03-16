@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+import "Protos/Enums.proto";
+
+package starWarsContract;
+
+service StarWarsService{
+    rpc GetSpaceShipInfo(SpaceShipInfoRequest) returns (SpaceShipInfoResponse){} //Unary
+    rpc MonitoringSpaceShip(MonitoringSpaceShipRequest)returns(stream MonitoringSpaceShipResponse){} // Server Streaming
+    rpc SendToDeathStarPlans (stream SendToDeathStarPlansRequest) returns  (SendToDeathStarPlansResponse) {} // Client Streaming
+    rpc SendMessageAllJedi(stream SendMessageAllJediRequest) returns (stream SendMessageAllJediResponse){} // Server-Client Streaming (Bi-directional)
+
+}
+
+message SpaceShipInfoRequest{
+    SpaceShips SpaceShip = 1;   
+}
+
+message SpaceShipInfoResponse{
+      string Producer = 1;
+      string Classification = 2;
+      string Length = 3;
+      string Crew = 4;
+      string Union = 5;
+      string Name = 6;
+}
+
+message MonitoringSpaceShipRequest{
+    SpaceShips SpaceShip = 1;  
+}
+
+message MonitoringSpaceShipResponse{
+    int32 Health = 1;
+    int32 Shield = 2;
+    string Message = 3;  
+}
+
+message SendToDeathStarPlansRequest{
+    int32 PlansPercentage = 1;
+}
+
+message SendToDeathStarPlansResponse{
+    TransmissionStatus Status = 1;
+}
+
+message SendMessageAllJediRequest{
+    string JediId = 1;
+    Planets Planet = 2; 
+}
+
+message SendMessageAllJediResponse{
+    string JediId = 1;
+    MessageStatus MessageStatus = 2;
+}

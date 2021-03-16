@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+enum Planets{
+    Naboo = 0;
+    Coruscant = 1;
+    Kamino = 2;
+    Mustafar = 3;
+    Tatooine = 4;
+    Hoth = 5;
+    Dagobah = 6;
+    Endor = 7;
+}
+
+enum SpaceShips{
+    XWing = 0;
+    YWing = 1;
+    TIEFighter = 2;
+    MillenniumFalcon =3;
+    StarDestroyer = 4;
+}
+
+enum TransmissionStatus{
+    Done = 0;
+    Failed = 1;
+    None = 2;
+}
+
+enum MessageStatus{
+    SuccessMessage = 0;
+    FailedMessage = 1;
+}

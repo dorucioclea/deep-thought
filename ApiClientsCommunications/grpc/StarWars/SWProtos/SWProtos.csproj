@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Protos\Enums.proto" />
+    <None Remove="Protos\StarWarsContract.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.15.5" />
+    <PackageReference Include="Grpc" Version="2.36.1" />
+    <PackageReference Include="Grpc.Tools" Version="2.36.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\Enums.proto" GrpcServices="Both" />
+    <Protobuf Include="Protos\StarWarsContract.proto" GrpcServices="Both" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWProtos", "SWProtos\SWProtos.csproj", "{916A37C7-585C-48EA-803C-AAFE5D42320D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWServer", "SWServer\SWServer.csproj", "{A6247A6C-A5E7-4306-B3F9-B69830A8AD50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWClient", "SWClient\SWClient.csproj", "{073AC80B-F5B8-4740-B5C8-B67E2880D1FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{916A37C7-585C-48EA-803C-AAFE5D42320D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916A37C7-585C-48EA-803C-AAFE5D42320D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916A37C7-585C-48EA-803C-AAFE5D42320D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916A37C7-585C-48EA-803C-AAFE5D42320D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6247A6C-A5E7-4306-B3F9-B69830A8AD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6247A6C-A5E7-4306-B3F9-B69830A8AD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6247A6C-A5E7-4306-B3F9-B69830A8AD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6247A6C-A5E7-4306-B3F9-B69830A8AD50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073AC80B-F5B8-4740-B5C8-B67E2880D1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073AC80B-F5B8-4740-B5C8-B67E2880D1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073AC80B-F5B8-4740-B5C8-B67E2880D1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073AC80B-F5B8-4740-B5C8-B67E2880D1FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D97C84D-15C8-46F2-B807-60289E0B1162}
+	EndGlobalSection
+EndGlobal
