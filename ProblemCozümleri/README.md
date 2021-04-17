@@ -11,6 +11,7 @@
  |7                      |[10001. asal sayı](./ProjectEuler/07)             |
  |8                      |[Bir serideki en büyük değer](./ProjectEuler/08)  | 
  |13                     |[Büyük toplam](./ProjectEuler/13)                 | 
+ |14                     |[En uzun Collatz dizisi](./ProjectEuler/14)       | 
  |19                     |[Pazarların Sayısı](./ProjectEuler/19)            |                               
  |42 :earth_africa: 	 |[Kodlanmış Üçgensel Sayılar](./ProjectEuler/42)   |
 
