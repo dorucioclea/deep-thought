@@ -14,7 +14,8 @@
  |12                     |[Çokça bölünebilen üçgensel sayı](./ProjectEuler/12)                 | 
  |13                     |[Büyük toplam](./ProjectEuler/13)                                    | 
  |14                     |[En uzun Collatz dizisi](./ProjectEuler/14)                          | 
- |19                     |[Pazarların Sayısı](./ProjectEuler/19)                               |                               
+ |19                     |[Pazarların Sayısı](./ProjectEuler/19)                               |    
+ |25                     |[1000 basamaklı Fibonacci sayısı](./ProjectEuler/25)                 |                            
  |42 :earth_africa: 	 |[Kodlanmış Üçgensel Sayılar](./ProjectEuler/42)                      |
 
   
