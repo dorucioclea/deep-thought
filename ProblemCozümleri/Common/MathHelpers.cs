@@ -1,4 +1,5 @@
 using System;
+using System.Numerics;
 
 namespace ProblemCozümleri.Common
 {
@@ -48,6 +49,23 @@ namespace ProblemCozümleri.Common
 
             return reverseNumber == number;
 
+        }
+
+        /// <summary>
+        /// BigInteger olarak alınan değerin rakamlarının toplamını döner.
+        /// </summary>
+        /// <param name="numbers"></param>
+        /// <returns></returns>
+        public static long SumOfNumbers(BigInteger numbers)
+        {
+            long sum = 0;
+            while (numbers > 0)
+            {
+                sum += (int)(numbers % 10);
+                numbers /= 10;
+            }
+
+            return sum;
         }
     }
 }
