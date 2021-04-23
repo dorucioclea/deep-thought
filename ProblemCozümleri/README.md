@@ -16,6 +16,7 @@
  |14                     |[En uzun Collatz dizisi](./ProjectEuler/14)                          | 
  |19                     |[Pazarların Sayısı](./ProjectEuler/19)                               |     
  |20                     |[Faktöriyelin Basamaklar Toplamı](./ProjectEuler/20)                 |    
+ |22                     |[İsim skorları](./ProjectEuler/22)                                   |  
  |25                     |[1000 basamaklı Fibonacci sayısı](./ProjectEuler/25)                 |                            
  |42 :earth_africa: 	 |[Kodlanmış Üçgensel Sayılar](./ProjectEuler/42)                      |
 

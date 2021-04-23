@@ -1,4 +1,4 @@
-Soru 22: 
+Soru 22: İsim skorları
 
 5 binin üzerinde ismi içeren 46KB’lık names.txt (sağ tıklayın ve ‘Hedefi farklı kaydet…’ ile indirin) dosyasını indirerek, alfabetik olarak sıralayın. Sonrasında isimlerdeki her bir harfin alfabetik sıra numarasını toplayarak, bu değeri ismin listedeki sıra numarasıyla çarpın ve ismin puanını bulun.
 
