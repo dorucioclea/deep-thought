@@ -9,7 +9,7 @@ namespace ProblemCozümleri.Common
         /// </summary>
         /// <param name="n"></param>
         /// <returns></returns>
-        public static bool IsPrimeNumber(int n)
+        public static bool IsPrimeNumber(long n)
         {
             if (n == 2) return true;
 
@@ -25,6 +25,21 @@ namespace ProblemCozümleri.Common
             }
 
             return true;
+        }
+
+        /// <summary>
+        /// Bir sonraki sıradaki asal sayı dönülür.
+        /// </summary>
+        /// <param name="lastPrime">Asal Sayı</param>
+        /// <returns></returns>
+        public static long GetNextPrime(long lastPrime)
+        {
+            for (var i = lastPrime + 1; i < long.MaxValue; i++)
+            {
+                if (IsPrimeNumber(i)) return i;
+            }
+
+            throw new Exception("Bir sonraki Asal Sayı Bulunamadı.");
         }
     }
 }
