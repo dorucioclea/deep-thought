@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using ProblemCozümleri.Common;
 
 namespace ProblemCozümleri.ProjectEuler
 {
@@ -10,7 +11,7 @@ namespace ProblemCozümleri.ProjectEuler
         public static int MaximumPathSumII()
         {
 
-            List<int[]> readAllLines = ReadAllLines();
+            List<List<int>> readAllLines = FileHelpers.GetTwoDimensionArrayByTextFile("67", "triangle");
 
             for (var i = readAllLines.Count - 2; i >= 0; i--)
             {
@@ -22,20 +23,6 @@ namespace ProblemCozümleri.ProjectEuler
             }
 
             return readAllLines[0][0];
-        }
-
-        static List<int[]> ReadAllLines()
-        {
-            List<int[]> allLines = new List<int[]>();
-
-            string[] numbersStr = File.ReadAllLines(@"./ProjectEuler/67/triangle.txt");
-            for (var i = 0; i < numbersStr.Length; i++)
-            {
-                int[] lineNumbers = numbersStr[i].Split(' ').Select(x => int.Parse(x)).ToArray();
-                allLines.Add(lineNumbers);
-            }
-
-            return allLines;
         }
     }
 }
