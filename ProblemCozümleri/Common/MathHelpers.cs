@@ -67,5 +67,28 @@ namespace ProblemCozümleri.Common
 
             return sum;
         }
+
+        /// <summary>
+        /// Alınan değerin bir sonraki dairesel sayı değerini döndürür. İlk basamaktaki değeri son basamak yapar.
+        /// </summary>
+        /// <param name="number"></param>
+        /// <returns></returns>
+        public static int GetNextCircularNumber(int number)
+        {
+            int multiplier = (int)Math.Pow(10, IntLength(number) - 1);
+            return (number % 10) * multiplier + number / 10;
+        }
+
+        /// <summary>
+        /// Integer olarak alınan değerin uzunluğunu döndürür.
+        /// </summary>
+        /// <param name="i"></param>
+        /// <returns></returns>
+        public static int IntLength(int i)
+        {
+            if (i == 0)
+                return 1;
+            return (int)Math.Floor(Math.Log10(i)) + 1;
+        }
     }
 }
