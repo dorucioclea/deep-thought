@@ -22,7 +22,8 @@
  |22                     |[İsim skorları](./ProjectEuler/22)                                   |  
  |25                     |[1000 basamaklı Fibonacci sayısı](./ProjectEuler/25)                 |      
  |28                     |[Sarmal sayı köşegenleri](./ProjectEuler/28)                         |    
- |35                     |[Dairesel Asallar](./ProjectEuler/35)                                |                           
+ |35                     |[Dairesel Asallar](./ProjectEuler/35)                                |        
+ |48                     |[Kendisinin üstü](./ProjectEuler/48)                                 |                       
  |42 :earth_africa: 	 |[Kodlanmış Üçgensel Sayılar](./ProjectEuler/42)                      |
  |67                     |[Maksimum toplam yolu 2](./ProjectEuler/67)                          | 
 
