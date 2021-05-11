@@ -48,7 +48,21 @@ namespace ProblemCozümleri.Common
             }
 
             return reverseNumber == number;
+        }
 
+        /// <summary>
+        /// String olarak alınan değerin palindrome sayı olup olmadığını döner.
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+        public static bool IsPalindrome(string str)
+        {
+            string reverseStr = string.Empty;
+            for (var i = str.Length - 1; i >= 0; i--)
+                reverseStr += str[i];
+
+
+            return str == reverseStr;
         }
 
         /// <summary>
