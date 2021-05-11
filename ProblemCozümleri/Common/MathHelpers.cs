@@ -104,5 +104,16 @@ namespace ProblemCozümleri.Common
                 return 1;
             return (int)Math.Floor(Math.Log10(i)) + 1;
         }
+
+        /// <summary>
+        /// Girilen sayının istenen index'teki rakamı döner.
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public static int GetDigitInsideNumber(long number, int index)
+        {
+            return Convert.ToInt32(number.ToString()[index]) - 48;
+        }
+
     }
 }

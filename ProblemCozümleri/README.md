@@ -26,6 +26,7 @@
  |28                     |[Sarmal sayı köşegenleri](./ProjectEuler/28)                         |    
  |35                     |[Dairesel Asallar](./ProjectEuler/35)                                |        
  |36                     |[Çift tabanlı Palindromlar](./ProjectEuler/36)                       |        
+ |40                     |[Champernowne sabiti](./ProjectEuler/40)                             |  
  |48                     |[Kendisinin üstü](./ProjectEuler/48)                                 |                       
  |42 :earth_africa: 	 |[Kodlanmış Üçgensel Sayılar](./ProjectEuler/42)                      |
  |67                     |[Maksimum toplam yolu 2](./ProjectEuler/67)                          | 
