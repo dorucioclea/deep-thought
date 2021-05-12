@@ -8,10 +8,10 @@ namespace ProblemCozümleri.ProjectEuler
 {
     public static class Problem67
     {
-        public static int MaximumPathSumII()
+        public static int MaximumPathSumII(string path)
         {
 
-            List<List<int>> readAllLines = FileHelpers.GetTwoDimensionArrayByTextFile("67", "triangle");
+            List<List<int>> readAllLines = FileHelpers.GetTwoDimensionArrayByTextFile(path);
 
             for (var i = readAllLines.Count - 2; i >= 0; i--)
             {

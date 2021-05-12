@@ -7,9 +7,9 @@ namespace ProblemCozümleri.ProjectEuler
 {
     public static class Problem11
     {
-        public static long LargestProductInAGrid()
+        public static long LargestProductInAGrid(string path)
         {
-            List<List<int>> grid = FileHelpers.GetTwoDimensionArrayByTextFile("11", "grid");
+            List<List<int>> grid = FileHelpers.GetTwoDimensionArrayByTextFile(path);
             long largestProduct = 0;
 
             for (var row = 0; row < grid.Count; row++)

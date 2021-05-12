@@ -7,10 +7,10 @@ namespace ProblemCozümleri.ProjectEuler
 {
     public class Problem42
     {
-        public static int CodedTriangleNumbers()
+        public static int CodedTriangleNumbers(string path)
         {
             char[] alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
-            string words = File.ReadAllText(@"./ProjectEuler/42/p042_words.txt");
+            string words = File.ReadAllText(path);
             string[] wordList = words.Split(",");
 
             int countTriangleNumber=0;

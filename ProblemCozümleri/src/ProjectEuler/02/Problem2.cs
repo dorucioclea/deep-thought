@@ -2,8 +2,9 @@ namespace ProblemCozümleri.ProjectEuler
 {
     public class Problem02
     {
-        public static int EvenFibonacciNumbers(int fibLimit)
+        public static int EvenFibonacciNumbers()
         {
+            int fibLimit = 4000000;
             int firstFib = 0;
             int secondFib = 1;
             int sumEvenValFib = 0;

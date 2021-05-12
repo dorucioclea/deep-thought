@@ -1,6 +1,6 @@
 namespace ProblemCozümleri.ProjectEuler
 {
-    public class Problem5
+    public class Problem05
     {
         public static int SmallestMultiple()
         {

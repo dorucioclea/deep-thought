@@ -6,11 +6,11 @@ namespace ProblemCozümleri.ProjectEuler
 {
     public class Problem13
     {
-        public static double LargeSum()
+        public static double LargeSum(string path)
         {
             BigInteger bigSum = 0;
 
-            string[] lines = File.ReadAllLines(@"./ProjectEuler/13/numbers.txt");
+            string[] lines = File.ReadAllLines(path);
             foreach (string line in lines)
                 bigSum += BigInteger.Parse(line);
 

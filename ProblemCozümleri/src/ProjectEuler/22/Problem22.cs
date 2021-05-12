@@ -6,10 +6,10 @@ namespace ProblemCozümleri.ProjectEuler
 {
     public static class Problem22
     {
-        public static long NamesScores()
+        public static long NamesScores(string path)
         {
             char[] alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
-            string namesText = File.ReadAllText(@"./ProjectEuler/22/p022_names.txt");
+            string namesText = File.ReadAllText(path);
             string[] namesList = namesText.Replace("\"", string.Empty).Split(",").OrderBy(x => x).ToArray();
 
             int totalNameScore = 0;

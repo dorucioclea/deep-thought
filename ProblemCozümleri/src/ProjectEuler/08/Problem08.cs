@@ -6,10 +6,10 @@ namespace ProblemCozümleri.ProjectEuler
 {
     public class Problem08
     {
-        public static double LargestProductSeries()
+        public static double LargestProductSeries(string path)
         {
             string numbers = string.Empty;
-            string[] lines = File.ReadAllLines(@"./ProjectEuler/08/numbers.txt");
+            string[] lines = File.ReadAllLines(path);
 
             foreach (string line in lines)
                 numbers += line;
