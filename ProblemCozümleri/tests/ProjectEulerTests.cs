@@ -128,6 +128,14 @@ namespace ProblemCozümleri.Tests
         }
 
         [Fact]
+        public void Problem16_Return_Result_1366()
+        {
+            long act = Problem16.PowerDigitSum();
+
+            Assert.True(act.Equals(1366));
+        }
+
+        [Fact]
         public void Problem18_Return_Result_1074()
         {
             string basePath = @"c:\repository\deep-thought\ProblemCozümleri\";

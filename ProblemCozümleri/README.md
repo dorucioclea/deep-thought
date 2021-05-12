@@ -19,6 +19,7 @@
  |12                     |[Çokça bölünebilen üçgensel sayı](./src/ProjectEuler/12)                 | 
  |13                     |[Büyük toplam](./src/ProjectEuler/13)                                    | 
  |14                     |[En uzun Collatz dizisi](./src/ProjectEuler/14)                          | 
+ |16                     |[Bir sayının kuvvetinin basamaklarının toplamı](./src/ProjectEuler/16)                          | 
  |18                     |[Maksimum toplam yolu 1](./src/ProjectEuler/18)                          |     
  |19                     |[Pazarların Sayısı](./src/ProjectEuler/19)                               |     
  |20                     |[Faktöriyelin Basamaklar Toplamı](./src/ProjectEuler/20)                 |    
