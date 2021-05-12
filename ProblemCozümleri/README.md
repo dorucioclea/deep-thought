@@ -14,7 +14,7 @@
  |6                      |[Toplam kare farkı](./src/ProjectEuler/06)                               |
  |7                      |[10001. asal sayı](./src/ProjectEuler/07)                                |
  |8                      |[Bir serideki en büyük değer](./src/ProjectEuler/08)                     | 
- |9                      |[Özel Pisagor üçlüsü](./src/ProjectEuler/08)                             | 
+ |9                      |[Özel Pisagor üçlüsü](./src/ProjectEuler/09)                             | 
  |11                     |[Bir matristeki en büyük değer](./src/ProjectEuler/11)                   | 
  |12                     |[Çokça bölünebilen üçgensel sayı](./src/ProjectEuler/12)                 | 
  |13                     |[Büyük toplam](./src/ProjectEuler/13)                                    | 
@@ -29,5 +29,5 @@
  |36                     |[Çift tabanlı Palindromlar](./src/ProjectEuler/36)                       |        
  |40                     |[Champernowne sabiti](./src/ProjectEuler/40)                             |  
  |48                     |[Kendisinin üstü](./src/ProjectEuler/48)                                 |                       
- |42 :earth_africa: 	 |[Kodlanmış Üçgensel Sayılar](./src/ProjectEuler/42)                      |
+ |42 :earth_africa: 	    |[Kodlanmış Üçgensel Sayılar](./src/ProjectEuler/42)                      |
  |67                     |[Maksimum toplam yolu 2](./src/ProjectEuler/67)                          | 
